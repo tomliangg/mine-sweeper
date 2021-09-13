@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  padding: 15px;
+
+  label {
+    line-height: 1.5
+  }
+
+  p {
+    line-height: 0.8;
+  }
+}
+
+.board {
+  .row {
+    display: flex;
+    justify-content: center;
+    .cell {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+      width: 30px;
+      border: 1px solid black;
+    }
+
+    .unvisited {
+      background: whitesmoke;
+      cursor: pointer;
+
+      &:hover {
+        background: darken(whitesmoke, 15);
+      }
+    }
+
+    .revealed {
+      background: darkgray;
+      color: white;
+      user-select: none;
+    }
+
+    .activeMine {
+      background: coral;
+    }
+  }
+}
+
+.info {
+  margin-top: 30px;
+  text-align: center;
+  background: cornsilk;
+  padding: 3px;
+  font-size: 20px;
+  p {
+    text-transform: uppercase;
+  }
+}
+
+.lost.info {
+  color: crimson;
+}
+
+.won.info {
+  color: seagreen;
+}
+
+.restartBtn {
+  display: block;
+  margin-top: 10px;
+}
+
+.selectDifficulty {
+  margin-left: 6px;
+}
