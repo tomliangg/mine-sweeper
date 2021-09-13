@@ -14,7 +14,7 @@ m1000
 12221
 01mm1
 00220
-02000
+00000
 ```
 
 Output explanation: if the grid has a mine at (i, j) then grid[i][j] = "m". If grid[i][j] is <number>, that simply means there are <number> of mines at the adjacent cells of (i, j). Each cell can have up to 8 adjacent cells (top-left, top-center, top-right, left, right, bottom-left, bottom-center, bottom-right).
