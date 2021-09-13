@@ -13,7 +13,7 @@ $ generateMinesweeper(gridSize, mines)
 m1000
 12221
 01mm1
-00220
+01221
 00000
 ```
 
