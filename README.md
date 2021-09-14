@@ -30,4 +30,7 @@ I realized that I can reuse the core logic of _generateMinesweeper_ and some web
 - Use mouse right-click to place a flag on the cell
 - You won when all cells are uncovered or flagged
 
-For more rules, read the [wiki reference](<https://en.wikipedia.org/wiki/Minesweeper_(video_game)>)
+For more rules, read the [wiki reference](<https://en.wikipedia.org/wiki/Minesweeper_(video_game)>). 
+
+## Demo
+![game play demo](https://github.com/tomliangg/mine-sweeper/blob/main/demo/Mine%20Sweeper%20Game%20Play.gif)
