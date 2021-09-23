@@ -33,4 +33,4 @@ I realized that I can reuse the core logic of _generateMinesweeper_ and some web
 For more rules, read the [wiki reference](<https://en.wikipedia.org/wiki/Minesweeper_(video_game)>). 
 
 ## Demo
-![game play demo](https://github.com/tomliangg/mine-sweeper/blob/main/demo/Mine%20Sweeper%20Game%20Play.gif)
+![game play demo](demo/Mine%20Sweeper%20Game%20Play.gif)
