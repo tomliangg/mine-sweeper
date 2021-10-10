@@ -2,9 +2,11 @@
   "name": "mine-sweeper",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://tomliangg.github.io/mine-sweeper",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "gh-pages": "3.2.3",
     "lodash": "4.17.21",
     "node-sass": "4.14.1",
     "react": "17.0.2",
@@ -16,6 +18,8 @@
     "typescript": "4.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

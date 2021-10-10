@@ -34,3 +34,5 @@ For more rules, read the [wiki reference](<https://en.wikipedia.org/wiki/Mineswe
 
 ## Demo
 ![game play demo](demo/Mine%20Sweeper%20Game%20Play.gif)
+
+Try it out here: https://tomliangg.github.io/mine-sweeper/
